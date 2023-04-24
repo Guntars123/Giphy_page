@@ -1,0 +1,18 @@
+{
+    "name": "guntars/giphy",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guntars",
+            "email": "gvaivods@gmail.com"
+        }
+    ],
+    "require": {
+        "giphy/giphy-php-client": "^1.0",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
